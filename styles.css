@@ -1,0 +1,138 @@
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	background-color:white;
+	margin:0 auto;
+	padding: 0 10px;
+	max-width:800px;
+}
+
+header {
+	text-align:center;
+}
+
+main {
+	text-align:center;
+}
+
+summary{
+	text-decoration:none;
+}
+
+.loona-gradient-text {
+	background-color:black;
+	background-image:
+			linear-gradient(90deg, rgba(222, 51, 115, 1) 0%,
+			rgba(252, 202, 40, 1) 9%,
+			rgba(8, 169, 83, 1) 18%,
+			rgba(245, 113, 42, 1) 27%,
+			rgba(245, 158, 175, 1) 36%,
+			rgba(238, 27, 62, 1) 45%,
+			rgba(30, 118, 184, 1) 54%,
+			rgba(124, 46, 135, 1) 63%,
+			rgba(122, 4, 52, 1) 72%,
+			rgba(249, 143, 129, 1) 81%,
+			rgba(55, 186, 155, 1) 90%,
+			rgba(192, 194, 194, 1) 100%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.gradient-text {
+	background-color:black;
+	background-image:
+		linear-gradient(90deg, rgba(255, 0, 0, 1) 0%,
+		rgba(255, 154, 0, 1) 10%,
+		rgba(208, 222, 33, 1) 20%,
+		rgba(79, 220, 74, 1) 30%,
+		rgba(63, 218, 216, 1) 40%,
+		rgba(47, 201, 226, 1) 50%,
+		rgba(28, 127, 238, 1) 60%,
+		rgba(95, 21, 242, 1) 70%,
+		rgba(186, 12, 248, 1) 80%,
+		rgba(251, 7, 217, 1) 90%,
+		rgba(255, 0, 0, 1) 100%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.opis{
+	font-family:"Trebuchet MS", sans-serif;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+h1 {
+	background-color:black;
+	color:white;
+	font-size:60px;
+	border:2px solid gold;
+	font-family: trebuchet ms, sans-serif;
+	text-align:center;
+}
+
+h2 {
+	color:white;
+	padding:8px;
+	border:3px double gold;
+	font-family: trebuchet ms, sans-serif;
+	background-color:black;
+	text-align:center;
+}
+
+
+h3 {
+	font-family: trebuchet ms, sans-serif;
+	background-color:#303030;
+	text-align:center;
+	padding:5px;
+	font-weight:bold;
+	border: 3px solid;
+}
+
+details {
+	font-weight: bold;
+	border:3px double gold; 
+	padding:10px;
+	margin:5px;
+}
+
+a {
+	text-decoration:none;
+}
+
+div {
+	box-shadow:7px 7px 5px lightgray ;
+}
+
+nav,main a:link {
+	font-family:trebuchet ms, sans-serif;
+	text-decoration: none;
+	background-color: black;
+	border: 5px ridge black;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+nav,main a:hover {
+	border-color: transparent;
+}
+
+.hash {
+	margin-bottom:250px
+}
+
+img {
+	margin-top:10px;
+	border: 5px ridge gold;
+	width:300px;
+	height:300px;
+	margin-bottom:20px;
+}
+
+footer {
+	color:lightgray;
+}
